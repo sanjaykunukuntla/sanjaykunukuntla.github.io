@@ -1,87 +1,51 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, sans-serif;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjay Kunukuntla | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-body{
-    background:#0d1117;
-    color:white;
-    line-height:1.6;
-}
+<header>
+    <nav>
+        <h2>Sanjay</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
-nav{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:20px 10%;
-    background:#161b22;
-    position:sticky;
-    top:0;
-}
+<section id="home" class="hero">
+    <h1>Hi, I'm <span>Sanjay Kunukuntla</span></h1>
+    <h3>B.Tech Student | Python Developer | Aspiring Software Engineer</h3>
+    <p>Welcome to my personal portfolio website.</p>
+</section>
 
-nav ul{
-    list-style:none;
-    display:flex;
-    gap:20px;
-}
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a second-year B.Tech student at B V Raju Institute of Technology,
+        passionate about Python programming, web development, and software engineering.
+        I enjoy building projects and continuously learning new technologies.
+    </p>
+</section>
 
-nav a{
-    color:white;
-    text-decoration:none;
-    font-weight:bold;
-}
+<section id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>Python</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Git & GitHub</li>
+    </ul>
+</section>
 
-nav a:hover{
-    color:#58a6ff;
-}
-
-section{
-    padding:80px 10%;
-    text-align:center;
-}
-
-#home{
-    min-height:90vh;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-}
-
-h1{
-    font-size:50px;
-    color:#58a6ff;
-}
-
-h2{
-    margin-bottom:20px;
-    color:#58a6ff;
-}
-
-button{
-    margin-top:20px;
-    padding:12px 25px;
-    background:#238636;
-    color:white;
-    border:none;
-    border-radius:8px;
-    cursor:pointer;
-    font-size:16px;
-}
-
-button:hover{
-    background:#2ea043;
-    transform:scale(1.05);
-    transition:0.3s;
-}
-
-ul{
-    list-style:none;
-}
-
-footer{
-    text-align:center;
-    padding:20px;
-    background:#161b22;
-}
+<section id="projects">
+    <h2>Projects</
